@@ -58,6 +58,7 @@ ext {
         "postgresql"                 : "org.postgresql:postgresql:42.7.4",
         "oracle"                     : fileTree(dir: 'libs', includes: ['ojdbc8.jar']),
         "dm"                         : fileTree(dir: 'libs', includes: ["jdbcDriver-18.jar"]),
+        "halo"                       : fileTree(dir: 'libs', includes: ["halojdbc-jdk1.8.jar"]),
         "h2"                         : "com.h2database:h2:2.3.232",
         "mysql"                      : "com.mysql:mysql-connector-j:9.0.0",
         "sqlite"                     : "org.xerial:sqlite-jdbc:3.46.1.0",

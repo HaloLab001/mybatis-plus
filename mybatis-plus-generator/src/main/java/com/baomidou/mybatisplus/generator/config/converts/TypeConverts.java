@@ -53,6 +53,8 @@ public class TypeConverts {
                 return MySqlTypeConvert.INSTANCE;
             case POSTGRE_SQL:
                 return PostgreSqlTypeConvert.INSTANCE;
+            case HALO:
+                return HaloTypeConvert.INSTANCE;
             case SQLITE:
                 return SqliteTypeConvert.INSTANCE;
             case SQL_SERVER:

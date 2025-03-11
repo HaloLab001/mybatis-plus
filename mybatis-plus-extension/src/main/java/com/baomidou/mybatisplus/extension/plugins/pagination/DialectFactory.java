@@ -57,6 +57,8 @@ public class DialectFactory {
                 dialect = new Oracle12cDialect();
             } else if (dbType == DbType.DB2) {
                 dialect = new DB2Dialect();
+            } else if (dbType == DbType.HALO) {
+                dialect = new HaloDialect();
             } else if (dbType == DbType.SQL_SERVER2005) {
                 dialect = new SQLServer2005Dialect();
             } else if (dbType == DbType.SYBASE) {

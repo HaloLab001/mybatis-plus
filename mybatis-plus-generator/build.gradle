@@ -10,6 +10,7 @@ dependencies {
     testImplementation "${lib.postgresql}"
     testImplementation lib.oracle as ConfigurableFileTree
     testImplementation lib.dm as ConfigurableFileTree
+    testImplementation lib.halo as ConfigurableFileTree
     testImplementation "${lib.h2}"
     testImplementation "${lib.mysql}"
     testImplementation "${lib.sqlite}"

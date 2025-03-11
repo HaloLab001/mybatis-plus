@@ -40,6 +40,7 @@ public class DbQueryRegistry {
         db_query_enum_map.put(DbType.LEALONE, new H2Query());
         db_query_enum_map.put(DbType.SQLITE, new SqliteQuery());
         db_query_enum_map.put(DbType.DM, new DMQuery());
+        db_query_enum_map.put(DbType.HALO, new HaloSqlQuery());
         db_query_enum_map.put(DbType.KINGBASE_ES, new KingbaseESQuery());
         db_query_enum_map.put(DbType.MYSQL, new MySqlQuery());
         db_query_enum_map.put(DbType.GAUSS, new GaussQuery());

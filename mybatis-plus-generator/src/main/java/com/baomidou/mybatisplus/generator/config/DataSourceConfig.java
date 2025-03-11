@@ -182,6 +182,8 @@ public class DataSourceConfig {
             return DbType.KINGBASE_ES;
         } else if (str.contains(":dm:")) {
             return DbType.DM;
+        } else if (str.contains(":halo:")) {
+            return DbType.HALO;
         } else if (str.contains(":zenith:")) {
             return DbType.GAUSS;
         } else if (str.contains(":oscar:")) {

@@ -65,6 +65,10 @@ public enum DbType {
      */
     POSTGRE_SQL("postgresql", "Postgre数据库"),
     /**
+     * HALO
+     */
+    HALO("halo", "曦和数据库"),
+    /**
      * SQLSERVER2005
      */
     SQL_SERVER2005("sqlserver2005", "SQLServer2005数据库"),

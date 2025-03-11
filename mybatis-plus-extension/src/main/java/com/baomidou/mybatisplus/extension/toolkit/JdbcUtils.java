@@ -83,6 +83,8 @@ public class JdbcUtils {
             return DbType.SQLITE;
         } else if (url.contains(":h2:")) {
             return DbType.H2;
+        } else if (url.contains(":halo:")) {
+            return DbType.HALO;
         } else if (url.contains(":lealone:")) {
             return DbType.LEALONE;
         } else if (regexFind(":dm\\d*:", url)) {
